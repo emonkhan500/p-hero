@@ -1,44 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- css link -->
-    <link rel="stylesheet" href="stylw.css">
+    <link rel="stylesheet" href="stylw.css" />
     <!-- tailwind+ daisy -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
 
-</head>
-
-<body>
-  <nav class="w-auto mx-1 lg:mx-20  flex justify-center pt-6">
-    <div class="navbar bg-base-100">
+  <body>
+    <nav class="w-auto mx-1 lg:mx-20 flex justify-center pt-6">
+      <div class="navbar bg-base-100">
         <div class="navbar-start">
-          <img src="./Logo.png" alt="">
+          <img src="./Logo.png" alt="" />
         </div>
-        <div class="navbar-center hidden">
-          <a class="btn  normal-case text-xl">Sort by view</a>
+        <div class="navbar-center">
+          <a class="btn normal-case text-xl">Sort by view</a>
         </div>
         <div class="navbar-end">
-         <a href="blog.html"><button class="btn btn-secondary text-xl">Blog</button> </a>
-     
+          <a href="blog.html"
+            ><button class="btn btn-secondary text-xl">Blog</button>
+          </a>
         </div>
       </div>
-  </nav>  
-  <hr class="h-1 bg-slate-300 mt-5">
+    </nav>
+    <hr class="h-1 bg-slate-300 mt-5" />
 
-       <div class= " w-full">
-        <div class="tabs p-5 w-96 text-center mx-auto flex justify-center" id="tab-container">
-            <!-- <a class="tab">Tab 1</a> 
+    <div class="w-full">
+      <div
+        class="tabs p-5 w-96 text-center mx-auto flex justify-center"
+        id="tab-container"
+      >
+        <!-- <a class="tab">Tab 1</a> 
             <a class="tab ">Tab 2</a> 
             <a class="tab">Tab 3</a> -->
+      </div>
+    </div>
+    <!-- card section -->
+    <div id="card-container" class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-24 mx-auto ml-7">
+      <!-- <div>
+        <div class="card w-96 bg-base-100 border border-red-200">
+          <figure><img class="" src="./Icon.png" alt="Shoes" /></figure>
+          <div class="flex gap-4 mx-4 mt-4 mb-2 ">
+           <div> <img width="50" src="./Icon.png" alt=""></div>
+           <div>
+            <h2 class="card-title">Building a Winning UX Strategy Using the Kano Model</h2>
+            <h4>Awlad Hossain</h4>
+            <h4>91K views</h4>         
+           </div>
           </div>
-       </div>
-    
-<!-- js link -->
-<script src="js/api.js"></script>
-</body>
+        
+        </div>
+      </div>
+      -->
+     
+    </div>
+
+    <!-- js link -->
+    <script src="js/api.js"></script>
+  </body>
 </html>
