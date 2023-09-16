@@ -25,11 +25,12 @@ const handleLoadNews = async (categroryId) => {
   if (data.data.length === 0) {
     const div = document.createElement("div");
     div.innerHTML = `
-     <div class="flex justify-center items-center flex-col "> <img class="mb-6" src="Icon.png" />
+     <div class="flex justify-center items-center flex-col   "> <img class="mb-6" src="Icon.png" />
      <p class=" text-5xl text-bold">Oops!! Sorry, There is no content here</P>
      </div>
      
       `;
+      
     cardContainer.appendChild(div);
   }
 
